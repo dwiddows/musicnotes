@@ -1,0 +1,5 @@
+X:1
+T:C Major Chord
+K:C
+\override Staff.Clef.transparent = ##t
+| "C" C E G |

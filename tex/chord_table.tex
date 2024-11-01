@@ -1,0 +1,39 @@
+\documentclass{standalone}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{tikz}
+
+
+\begin{document}
+
+\colorbox{white}{
+
+\begin{tabular}{c}
+    {\Large \textbf{Basic Triads}} \\  % Heading for Basic Triads
+    \vspace{0.1cm} \\
+
+    \begin{tabular}{>{\centering\arraybackslash}m{2cm} >{\centering\arraybackslash}m{1.5cm} m{3cm} m{3cm}}
+        \raisebox{0.5\height}{C Major} & \raisebox{0.5\height}{C} & \includegraphics[width=3cm]{images/c_treble.jpg} & \raisebox{-0.25in}{\includegraphics[width=3cm]{images/c_bass.jpg}} \\
+        \raisebox{0.5\height}{C Minor} & \raisebox{0.5\height}{$\mathrm{C}^-$} & \includegraphics[width=3cm]{images/c_m_treble.jpg} & \raisebox{-0.2in}{\includegraphics[width=3cm]{images/c_m_bass.jpg}} \\
+        \raisebox{0.5\height}{C Diminished} & \raisebox{0.5\height}{$\mathrm{C}^\circ$} & \includegraphics[width=3cm]{images/c_dim_treble.jpg} & \raisebox{-0.1in}{\includegraphics[width=3cm]{images/c_dim_bass.jpg}} \\
+        \raisebox{0.5\height}{C Augmented} & \raisebox{0.5\height}{$\mathrm{C}^+$} & \includegraphics[width=3cm]{images/c_aug_treble.jpg} & \raisebox{-0.1in}{\includegraphics[width=3cm]{images/c_aug_bass.jpg}} \\
+    \end{tabular}
+\end{tabular}
+
+\vspace{1cm}
+
+\begin{tabular}{c}
+    {\Large \textbf{Standard Sevenths}} \\  % Heading for Standard Sevenths
+    \vspace{0.1cm} \\
+
+    \begin{tabular}{>{\centering\arraybackslash}m{2cm} >{\centering\arraybackslash}m{1.5cm} m{3cm} m{3cm}}
+        \raisebox{0.5\height}{C7} & \raisebox{0.5\height}{$\mathrm{C}^7$} & \includegraphics[width=3cm]{images/c_7_treble.jpg} & \raisebox{0.08in}{\includegraphics[width=3cm]{images/c_7_bass.jpg}} \\
+        \raisebox{0.5\height}{C Minor 7} & \raisebox{0.5\height}{$\mathrm{C}^-7$} & \includegraphics[width=3cm]{images/c_m7_treble.jpg} & \raisebox{0.05in}{\includegraphics[width=3cm]{images/c_m7_bass.jpg}} \\
+        \raisebox{0.5\height}{C Major 7} & \raisebox{0.5\height}{$\mathrm{C}^\triangle$} & \includegraphics[width=3cm]{images/c_maj7_treble.jpg} & \raisebox{-0.12in}{\includegraphics[width=3cm]{images/c_maj7_bass.jpg}} \\
+        \raisebox{0.5\height}{C Diminished 7} & \raisebox{0.5\height}{$\mathrm{C}^\circ7$} & \includegraphics[width=3cm]{images/c_dim7_treble.jpg} & \raisebox{-0.1in}{\includegraphics[width=3cm]{images/c_dim7_bass.jpg}} \\
+    \end{tabular}
+\end{tabular}
+
+}
+
+\end{document}

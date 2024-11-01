@@ -1,0 +1,14 @@
+\version "2.24.0" % Ensure you use the latest version
+\paper {
+  #(set-paper-size "a6")  % Small paper size for thumbnails
+}
+
+\relative c' {
+  \clef treble
+  \time 4/4
+  \once \override NoteHead.size = #2 % Adjust note size for thumbnails
+  \once \override Staff.StaffSymbol.line-count = #1 % Remove staff lines if desired
+  \once \override Staff.Clef.transparent = ##t % Make the clef symbol transparent
+  \bar "|" % Add a bar line at the beginning
+  <c' e' g'>1  % C major chord in whole notes
+}
